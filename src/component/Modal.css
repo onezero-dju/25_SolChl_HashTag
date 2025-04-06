@@ -1,0 +1,18 @@
+.ClickModal{
+    position: absolute;
+    bottom: 10%;
+    left: 2%;
+    z-index: 2;
+    background-color: #DB987B;
+    padding: 10px 20px;
+    border-radius: 3px;
+}
+
+.ClickModal > li:first-child > div {
+    padding: 6px 18px;
+    border-radius: 6px;
+    margin: 8px 0px;
+    background-color: white;
+    text-align: center;
+    cursor: pointer;
+}

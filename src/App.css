@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: black;
+  list-style: none;
+}
+
+.NabiBar {
+  background-color: #A77864;
+  width: 100%;
+  height: 80px;
+  position: relative;
+}
+
+.NabiBar > ul {
+  list-style: none;
+  display: flex;
+  justify-self: center;
+}
+
+.NabiBar > ul > li > span {
+  font-size: 4em;
+  letter-spacing: 10px;
+  color: #654639;
+  cursor: pointer;
+}
+
+.LogIn-Out {
+  display: flex;
+  position: absolute;
+  right: 6%;
+  align-items: center;
+  top: 36%;
+}
+
+.LogIn-Out > div {
+  color: #654639;
+}
+
+.LogIn-Out > div:hover {
+  color: #65463985;
+  cursor: pointer;
+}
+
+.LogIn-Out > div:last-child {
+  margin-left: 22px;
+}
+
+.MainPage {
+  
+  height: 100vh;
+}
+
+.MainPage > ul {
+  display: flex;
+}
+
+.MainPage > ul > li {
+  width: 50%;  
+}
+
+.MonthTarget {  
+  margin: 46px auto;
+  text-align: center;
+  height: 300px;
+  background-color: #ffe1a9;
+  border-radius: 3px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  max-width: 350px;
+  min-width: 280px;
+  width: 100%; 
+}
+
+.MonthTarget > h1 {
+  font-size: 2em;
+  padding-top: 42px;
+}
+
+.MonthTarget > p {
+  font-size: 1.3em;
+  margin-top: 70px;
+}

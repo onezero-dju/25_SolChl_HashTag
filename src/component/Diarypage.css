@@ -1,0 +1,45 @@
+.Diarypage {
+    height: 100vh;
+}
+
+.DiarypageBody {
+    background-color: #F8F1E5;
+    width: 80%;
+    margin: auto;
+    height: 80%;
+    margin-top: 40px;
+    position: relative;
+}
+
+.DiarypageBodyTitle {
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 30px;
+}
+
+
+.DiarypageBodyDetail {
+    line-height: 30px;
+    padding: 30px;
+}
+
+.DiarypageOption {
+    display: flex;
+    position: absolute;
+    bottom: 4%;
+    right: 4%;
+}
+
+.DiarypageOption > div {
+    background-color: #FFB468;
+    width: 150px;
+    height: 50px;
+    color: white;
+    border-radius: 8px;
+    text-align: center;
+    align-content: center;
+}
+
+.DiarypageOption > div:last-child {
+    margin-left: 20px;
+}
