@@ -22,7 +22,7 @@ const Chatting = (props : ChattingInterface) => {
   };
 
   useEffect(() => {
-    const messageInputDiv = document.querySelector('.cs-message-input');
+    const messageInputDiv = document.querySelector('.cs-message-input__tools');
     if (messageInputDiv) {
       messageInputDiv.addEventListener('click', toggleModal);
       console.log("클릭됨")
