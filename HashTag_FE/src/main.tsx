@@ -15,5 +15,5 @@ createRoot(document.getElementById('root')!).render(
         <Route path="/diarypage" element={<Diarypage />} />
       </Routes>
       </Router>
-  </StrictMode>,
+  </StrictMode>
 )

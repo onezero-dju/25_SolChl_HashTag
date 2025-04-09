@@ -53,6 +53,7 @@
 
 .MainPage > ul {
   display: flex;
+  height: calc(100vh - 130px);
 }
 
 .MainPage > ul > li {
